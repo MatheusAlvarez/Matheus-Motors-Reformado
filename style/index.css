@@ -162,3 +162,11 @@
         }
 
     }
+
+
+    @media (max-width: 500px) {
+        .colunas{
+            display: inline-block;
+            margin: 30px;
+        }
+       
