@@ -1,0 +1,87 @@
+    .mapa{
+        width: 480px;
+    }
+    
+    .contato label{
+        display: block;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    a.botao:hover, input.botao:hover{
+        background: #fff;
+        border: 1px solid #000;
+    }
+
+    .contato input, .contato textarea{
+        display: block;
+        margin-bottom: 15px;
+        padding: 5px 2%;
+        width: 96%;
+        border: 2px solid #000;
+    }
+
+    .contato textarea{
+        height: 150px;
+    }
+
+    .contato input.botao{
+        width: auto;
+    } 
+
+    @media (max-width: 500px){
+        .mapa{
+            width: 260px;
+        }
+
+        .contato label{
+            display: block;
+            font-size: 13px;
+            font-weight: 200;
+        }
+    
+        .contato input, .contato textarea{
+            display: block;
+            margin-bottom: 12px;
+            padding: 3px 2%;
+            width: 90%;
+            border: 2px solid #000;
+        }
+    
+        .contato textarea{
+            height: 130px;
+        }
+    
+        .contato input.botao{
+            width: auto;
+        } 
+
+    }
+
+    @media (max-width: 400px) {
+        .contato label{
+            display: block;
+            font-size: 13px;
+            font-weight: 100;
+        }
+    
+        .contato input, .contato textarea{
+            display: block;
+            margin-bottom: 12px;
+            padding: 3px 2%;
+            width: 75%;
+            border: 2px solid #000;
+        }
+    
+        .contato textarea{
+            height: 110px;
+        }
+    
+        .contato input.botao{
+            width: auto;
+        } 
+
+        .mapa{
+            width: 200px;
+        }
+    }

@@ -1,0 +1,50 @@
+    .logo-matheus-motors{
+        width: 400px;
+    }
+
+    .sobre-info{
+        width: 470px;
+        display: inline-block;
+        margin: 50px;
+        text-align: left;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    @media (max-width: 900px) {
+        .sobre-info{
+            width: 300px;
+            display: block;
+        }
+
+        .logo-matheus-motors{
+            width: 250px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+                
+
+    }
+
+    @media (max-width: 600px) {
+        .sobre-info{
+            width: 250px;
+            display: block;
+        }
+
+        .logo-matheus-motors{
+            width: 200px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    }

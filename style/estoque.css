@@ -1,0 +1,65 @@
+.back-color{
+    background-color: rgb(83, 83, 83);
+}
+
+.padding15{
+    padding: 15px;
+}
+
+.colunas{
+    display: inline-block;
+    margin: 50px;
+}
+
+.border-ofertas{
+    background: rgb(155, 153, 153);
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.carros-info{
+    width: 230px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+a.botao{
+    background: #000;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+} 
+
+a.botao:hover{
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+} 
+
+s{
+    color: rgb(209, 6, 6);
+}
+
+.border-ofertas a h4{
+    color: #000;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .colunas{
+        display: inline-block;
+        margin: 30px;
+    }
+    
+}
