@@ -4,7 +4,6 @@
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-Funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
@@ -18,14 +17,6 @@ Link do projeto: https://matheusalvarez.github.io/Matheus-Motors-Reformado/
 A ideia do projeto é desenvolver um site de vendas de carros.
 
 (Esse foi meu primeiro projeto através do curso técnico. Ele foi totalmente reformado, ou seja, apliquei novos conhecimentos de tags em HTML e novos conhecimentos de estilização através do CSS)
-
----
-
-## ⚙️ Funcionalidades
-
-- [x] Visualizar as vendas de cada vendedor
-- [x] Filtrar vendas por data 
-- [x] Enviar SMS informando o nome do vendedor e o valor da venda 
 
 ---
 
